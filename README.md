@@ -15,6 +15,9 @@ To start a web server for the application, run:
 
     lein ring server
 
+If you need to start with another port use env variables:
+    PORT=5000 lein ring server
+
 ## License
 
 Copyright © 2019 FIXME
